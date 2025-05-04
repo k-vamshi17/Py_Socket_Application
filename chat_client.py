@@ -3,7 +3,6 @@ import tkinter as tk
 import threading
 from tkinter import scrolledtext
 
-#class
 class ChatClient:
     def __init__(self,master,host="localhost",port=5555):
         self.master=master
